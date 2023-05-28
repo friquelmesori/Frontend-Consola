@@ -70,6 +70,7 @@ body{
     position:relative;
     text-align: center;
     font-size: 20px;
+    /* indica el orden de un elemento posicionado y sus descendientes */
     z-index: 5;
 }
 
@@ -84,7 +85,7 @@ body{
     font-family: "Comic Sans MS";
     font-weight: bold;
     font-size: 20px;
-    /* Juntar o separa las letras */
+    /* Juntar o separa el espaciado de las letras */
     letter-spacing: -4px;
 }
 
@@ -103,6 +104,7 @@ body{
 
 .l{
     color: #78b930;
+    /* define una transformación que rota un elemento alrededor del eje z sin deformarlo */
     transform: rotateZ(-10deg);
 }
 
@@ -152,6 +154,7 @@ body{
 }
 
 .arriba{
+    /* Añade un margen a un objeto en la pantalla cacl() */
     top: calc(0% + 4px);
     left: 33%;
     border-top: 4px solid black;
@@ -159,6 +162,8 @@ body{
     border-right: 4px solid black;
     border-radius: 5px 5px 0px 0px;
 
+
+    /* permite anidar modificadores de selector &: ... */
     &:active {
         background:linear-gradient(to top, #565e6a 0%, #333 100%);
       }
@@ -212,7 +217,7 @@ body{
     z-index: -5;
 
     &::after {
-        content:'';
+        
         position:absolute;
         top:20%;
         left:20%;
