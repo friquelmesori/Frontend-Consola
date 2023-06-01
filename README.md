@@ -13,7 +13,7 @@
     Creación con HTML y CSS de una interfaz de una consola clasica para coger agilidad con las tecnologias mas usada en el
     desarrollo web y mas concreto en la parte del FRONTEND.
 
-# **Sobre el proyecto**.
+# **Vista**.
   
   ![texto_alternativo](Consola-Frontend.JPG)
 
