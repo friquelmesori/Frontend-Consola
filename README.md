@@ -2,6 +2,14 @@
 
 Proyecto 1 - Consola
 
-Consola GAMEBOY COLOR - Purpura.
+
+- Objetivo: 
+  
+    Proyecto 1:
+    Consola GAMEBOY COLOR - Purpura, con HTML y CSS.
+
+- Vista.
+  
+  image.png
 
 
