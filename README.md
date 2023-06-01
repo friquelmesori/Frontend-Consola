@@ -11,5 +11,6 @@ Proyecto 1 - Consola
 - Vista.
   
   image.png
+  ![texto_alternativo](Consola-Frontend.JPG){width=70vw height=35vh}
 
 
